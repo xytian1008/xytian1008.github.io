@@ -29,7 +29,7 @@
                   I am fortunate to have joined <a href="https://www.tiktok.com/">TikTok</a> on leave from my PhD, where I explore video understanding and reasoning with multimodal models, working with <a href="https://www.linkedin.com/in/xyzunsw/">Dr. Yongzhi Xu</a>. Before this role, I served as a research intern at <a href="https://www.csiro.au/">CSIRO</a>, where I worked on multi-agent learning and its transfer to real-world scenarios, mentored by <a href="https://staffportal.curtin.edu.au/staff/profile/view/mahbuba-afrin-34238b48/">Prof. Mahbuba Afrin</a>.
                 </p>
                 <p style="text-align:center">
-                  <a href="xinyu.tian@anu.edu.au">Email</a> &nbsp;/&nbsp;
+                  <a href="mailto:xinyu.tian@anu.edu.au">Email</a> &nbsp;/&nbsp;
                   <a href="data/CV___Xinyu.pdf">CV</a> &nbsp;/&nbsp;
                   <a href="https://scholar.google.com/citations?user=hg_nsIcAAAAJ">Google Scholar</a>
                 </p>
@@ -47,7 +47,7 @@
                   <li><strong>[2026-03]</strong> Started machine learning engineer internship at <a href="https://www.tiktok.com/">TikTok</a>, <a href="https://www.bytedance.com/en/">ByteDance Ptd, Sydney</a>.</li>
                   <li><strong>[2026-02]</strong> Our paper <a href="https://arxiv.org/abs/2602.01234"><em>All Roads Lead to Rome: Incentivizing Divergent Thinking in Vision-Language Models</em></a> is accepted to <em>CVPR 2026</em>.</li>
                   <li><strong>[2026-01]</strong> Our paper <a href="https://arxiv.org/abs/2509.25848"><em>More Thought, Less Accuracy? On the Dual Nature of Reasoning in Vision-Language Models</em></a> is accepted to <em>ICLR 2026</em>.</li>
-                  <li><strong>[2025-04]</strong> Our paper <a href="https://arxiv.org/abs/2503.13792"><em>Identifying and Mitigating Position Bias of Multi-image Vision-Language Models</em></a> is accepted to <em>CVPR 2025 Oral (Top 1%)</em>.</li>
+                  <li><strong>[2025-04]</strong> Our paper <a href="https://arxiv.org/abs/2503.13792"><em>Identifying and Mitigating Position Bias of Multi-image Vision-Language Models</em></a> is accepted to <em>CVPR 2025</em> &nbsp;<font color="red"><strong>(Oral, Top 1%)</strong></font>.</li>
                   <li><strong>[2025-02]</strong> Our paper <a href="https://arxiv.org/abs/2502.15809"><em>Black Sheep in the Herd: Playing with Spuriously Correlated Attributes for Vision-Language Recognition</em></a> is accepted to <em>ICLR 2025</em>.</li>
                   <li><strong>[2024-04]</strong> Our paper <a href="https://arxiv.org/abs/2311.16494"><em>ArGue: Attribute-Guided Prompt Tuning for Vision-Language Models</em></a> is accepted to <em>CVPR 2024</em>.</li>
                 </ul>
@@ -65,46 +65,134 @@
 
 
 <tr onmouseout="zipmap_stop()" onmouseover="zipmap_start()">
-  <td style="padding:16px;width:20%;vertical-align:middle">
-    <div class="one">
-      <div class="two" id='zipmap_image'><video  width=100% height=100% muted autoplay loop>
-      <source src="images/zipmap.mp4" type="video/mp4">
-      Your browser does not support the video tag.
-      </video></div>
-      <img src='images/zipmap.jpg' width="160">
-    </div>
-    <script type="text/javascript">
-      function zipmap_start() {
-        document.getElementById('zipmap_image').style.opacity = "1";
-      }
-
-      function zipmap_stop() {
-        document.getElementById('zipmap_image').style.opacity = "0";
-      }
-      zipmap_stop()
-    </script>
+  <td style="padding:16px;width:20%;vertical-align:middle;text-align:center">
+    <img src='images/cvpr2026.png' width="300">
   </td>
   <td style="padding:20px;width:75%;vertical-align:middle">
     <a href="https://haian-jin.github.io/ZipMap/">
-      <span class="papertitle">ZipMap: Linear-Time Stateful 3D Reconstruction via Test-Time Training</span>
+      <span class="papertitle">All Roads Lead to Rome: Incentivizing Divergent Thinking in Vision-Language Models</span>
     </a>
     <br>
-    <a href="https://haian-jin.github.io/">Haian Jin</a>,
-    <a href="https://rundiwu.github.io/">Rundi Wu</a>,
-    <a href="https://tianyuanzhang.com/">Tianyuan Zhang</a>,
-    <a href="https://ruiqigao.github.io/">Ruiqi Gao</a>, <br>
-    <strong>Jonathan T. Barron</strong>,
-    <a href="https://www.cs.cornell.edu/~snavely/">Noah Snavely</a>,
-    <a href="https://holynski.org/">Aleksander Hołyński</a>
+    <strong>Xinyu Tian</strong></a>,
+    <a href="https://scholar.google.com/citations?user=0-peT50AAAAJ">Shu Zou</a>,
+    <a href="https://scholar.google.com/citations?user=qxa04lIAAAAJ">Zhaoyuan Yang</a>,
+    <a href="https://scholar.google.com/citations?user=Hf6PCLIAAAAJ">Mengqi He</a>, <br>
+    <a href="https://research.com/u/peter-henry-tu">Peter Henry Tu</a>,
+    <a href="https://jingzhang617.github.io/">Jing Zhang</a>
     <br>
     <em>CVPR</em>, 2026
     <br>
-    <a href="https://haian-jin.github.io/ZipMap/">project page</a> /
+    <!-- <a href="https://haian-jin.github.io/ZipMap/">project page</a> /
     <a href="https://arxiv.org/abs/2603.04385">arXiv</a> /
-    <a href="https://github.com/Haian-Jin/ZipMap">code</a>
+    <a href="https://github.com/Haian-Jin/ZipMap">code</a> -->
     <p></p>
     <p>
-		Test-time training lets you quickly compress an entire image collection into a compact model and thereby achieve linear-time 3D reconstruction.
+      We investigate diversity collapse, a common issue in GRPO models where their thinking is usually limited and lacks diversity. We propose MUPO, which helps VLMs learn to approach the same problem from multiple perspectives.
+    </p>
+  </td>
+</tr>
+
+
+
+<tr>
+  <td style="padding:16px;width:20%;vertical-align:middle;text-align:center">
+    <img src='images/iclr2026.png' width="300">
+  </td>
+  <td style="padding:20px;width:75%;vertical-align:middle">
+    <a href="https://arxiv.org/abs/2509.25848">
+      <span class="papertitle">More Thought, Less Accuracy? On the Dual Nature of Reasoning in Vision-Language Models</span>
+    </a>
+    <br>
+    <strong>Xinyu Tian</strong>,
+    <a href="https://scholar.google.com/citations?user=0-peT50AAAAJ">Shu Zou</a>,
+    <a href="https://scholar.google.com/citations?user=qxa04lIAAAAJ">Zhaoyuan Yang</a>,
+    <a href="https://scholar.google.com/citations?user=Hf6PCLIAAAAJ">Mengqi He</a>,
+    <a href="https://scholar.google.com/citations?user=yStD75oAAAAJ">Fabian Waschkowski</a>,
+    <a href="https://scholar.google.com/citations?user=v3U1mngAAAAJ">Lukas Wesemann</a>,
+    <a href="https://research.com/u/peter-henry-tu">Peter Henry Tu</a>,
+    <a href="https://jingzhang617.github.io/">Jing Zhang</a>
+    <br>
+    <em>ICLR</em>, 2026
+    <br>
+    <a href="https://arxiv.org/abs/2509.25848">arXiv</a>
+    <p>We find longer reasoning may not lead to better accuracy due to visual forgetting as the reasoning process goes on. We propose VAPO, which encourages VLMs to preserve perception capability during the reasoning process.</p>
+    <p>
+    </p>
+  </td>
+</tr>
+
+
+
+<tr>
+  <td style="padding:16px;width:20%;vertical-align:middle;text-align:center">
+    <img src='images/cvpr2025.png' width="300">
+  </td>
+  <td style="padding:20px;width:75%;vertical-align:middle">
+    <a href="https://arxiv.org/abs/2503.13792">
+      <span class="papertitle">Identifying and Mitigating Position Bias of Multi-image Vision-Language Models</span>
+    </a>
+    <br>
+    <strong>Xinyu Tian</strong>,
+    <a href="https://scholar.google.com/citations?user=0-peT50AAAAJ">Shu Zou</a>,
+    <a href="https://scholar.google.com/citations?user=qxa04lIAAAAJ">Zhaoyuan Yang</a>,
+    <a href="https://jingzhang617.github.io/">Jing Zhang</a>
+    <br>
+    <em>CVPR</em>, 2025 &nbsp <font color="red"><strong>(Oral, Top 1%)</strong></font>
+    <br>
+    <a href="https://arxiv.org/abs/2503.13792">arXiv</a>
+    <p>We find that VLMs are highly sensitive to image order. We propose SoFA, an inference-time attention rectification method that improves robustness to positional changes.</p>
+    <p>
+    </p>
+  </td>
+</tr>
+
+
+
+<tr>
+  <td style="padding:16px;width:20%;vertical-align:middle;text-align:center">
+    <img src='images/iclr2025.png' width="300">
+  </td>
+  <td style="padding:20px;width:75%;vertical-align:middle">
+    <a href="https://arxiv.org/abs/2502.15809">
+      <span class="papertitle">Black Sheep in the Herd: Playing with Spuriously Correlated Attributes for Vision-Language Recognition</span>
+    </a>
+    <br>
+    <strong>Xinyu Tian</strong>,
+    <a href="https://scholar.google.com/citations?user=0-peT50AAAAJ">Shu Zou</a>,
+    <a href="https://scholar.google.com/citations?user=qxa04lIAAAAJ">Zhaoyuan Yang</a>,
+    <a href="https://scholar.google.com/citations?user=Hf6PCLIAAAAJ">Mengqi He</a>,
+    <a href="https://jingzhang617.github.io/">Jing Zhang</a>
+    <br>
+    <em>ICLR</em>, 2025
+    <br>
+    <a href="https://arxiv.org/abs/2502.15809">arXiv</a>
+    <p>We find that spurious attributes greatly hurt the model robustness. We propose SAP and SAS to detect spurious attributes and mitigate their impact on object recognition</p>
+    <p>
+    </p>
+  </td>
+</tr>
+
+
+
+<tr>
+  <td style="padding:16px;width:20%;vertical-align:middle;text-align:center">
+    <img src='images/cvpr2024.png' width="300">
+  </td>
+  <td style="padding:20px;width:75%;vertical-align:middle">
+    <a href="https://arxiv.org/abs/2311.16494">
+      <span class="papertitle">ArGue: Attribute-Guided Prompt Tuning for Vision-Language Models</span>
+    </a>
+    <br>
+    <strong>Xinyu Tian</strong>,
+    <a href="https://scholar.google.com/citations?user=0-peT50AAAAJ">Shu Zou</a>,
+    <a href="https://scholar.google.com/citations?user=qxa04lIAAAAJ">Zhaoyuan Yang</a>,
+    <a href="https://jingzhang617.github.io/">Jing Zhang</a>
+    <br>
+    <em>CVPR</em>, 2024
+    <br>
+    <a href="https://arxiv.org/abs/2311.16494">arXiv</a>
+    <p>We propose ArGue, a prompt tuning method to leverage visual attributes for fine-grained vision language recognition, significantly improving accuracy and generalization.</p>
+    <p>
     </p>
   </td>
 </tr>
